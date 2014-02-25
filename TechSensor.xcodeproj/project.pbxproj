@@ -21,6 +21,7 @@
 		4AF02DB11831F5C30068E711 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF02D931831F5C30068E711 /* UIKit.framework */; };
 		4AF02DB91831F5C30068E711 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AF02DB71831F5C30068E711 /* InfoPlist.strings */; };
 		4AF02DBB1831F5C30068E711 /* TechSensorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF02DBA1831F5C30068E711 /* TechSensorTests.m */; };
+		4AF02DC51831F5F20068E711 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF02DC41831F5F20068E711 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4AF02DB61831F5C30068E711 /* TechSensorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechSensorTests-Info.plist"; sourceTree = "<group>"; };
 		4AF02DB81831F5C30068E711 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AF02DBA1831F5C30068E711 /* TechSensorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechSensorTests.m; sourceTree = "<group>"; };
+		4AF02DC41831F5F20068E711 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF02DC51831F5F20068E711 /* CoreMotion.framework in Frameworks */,
 				4AF02D921831F5C30068E711 /* CoreGraphics.framework in Frameworks */,
 				4AF02D941831F5C30068E711 /* UIKit.framework in Frameworks */,
 				4AF02D901831F5C30068E711 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		4AF02D8E1831F5C30068E711 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AF02DC41831F5F20068E711 /* CoreMotion.framework */,
 				4AF02D8F1831F5C30068E711 /* Foundation.framework */,
 				4AF02D911831F5C30068E711 /* CoreGraphics.framework */,
 				4AF02D931831F5C30068E711 /* UIKit.framework */,
